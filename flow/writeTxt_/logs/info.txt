@@ -1,3 +1,73 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-15
-#docs: 15 #processed: 0
+17
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 11: अभिजा-२०२३/प्र.क्र.११६/भाषा-१ ==शासन पूरकपत्र क्रमांक-अभिजा-२०२३/प्र.क्र.११६/भाषा-१,
+	extract_order_number:202403141232356033.pdf: >शासन पूरकपत्र क्रमांक-< >अभिजा-२०२३/प्र.क्र.११६/भाषा-१<
+	elapsed_time:202403141232356033.pdf: 0.000864
+  exec_task: doc_translator_hf 
+    Paras: #22 Sentences: #0
+	[0]  #words: 212 #sentences: 30
+	After generate: 3 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141232424033.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmrnormal, sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+	Tesseract on page: 6
+	Tesseract on page: 7
+	Tesseract on page: 8
+	Tesseract on page: 9
+	Tesseract on page: 10
+	Tesseract on page: 11
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141232424033.pdf: >शासन निर्णय क्रमांक< >भासस-२०१८/प्र.क्र.५०/भाषा-१<
+	elapsed_time:202403141232424033.pdf: 0.000131
+  exec_task: doc_translator_hf 
+    Paras: #147 Sentences: #58
+	[0]  #words: 258 #sentences: 34
+	After generate: 3 MB
+	[1]  #words: 268 #sentences: 22
+	After generate: 3 MB
+	[2]  #words: 26 #sentences: 2
+	After generate: 3 MB
+	[0]  #words: 257 #sentences: 67
+	After generate: 13 MB
+	[1]  #words: 261 #sentences: 38
+	After generate: 13 MB
+	[2]  #words: 267 #sentences: 28
+	After generate: 13 MB
+	[3]  #words: 266 #sentences: 22
+	After generate: 13 MB
+	[4]  #words: 262 #sentences: 19
+	After generate: 13 MB
+	[5]  #words: 275 #sentences: 16
+	After generate: 13 MB
+	[6]  #words: 261 #sentences: 13
+	After generate: 13 MB
+	[7]  #words: 263 #sentences: 12
+	After generate: 13 MB
+	[8]  #words: 281 #sentences: 11
+	After generate: 13 MB
+	[9]  #words: 272 #sentences: 9
+	After generate: 13 MB
+	[10]  #words: 297 #sentences: 5
+	After generate: 13 MB
+  exec_task: text_writer 
+#docs: 17 #processed: 2
